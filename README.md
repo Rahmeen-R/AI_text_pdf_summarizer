@@ -16,10 +16,6 @@ Clean, responsive Streamlit interface
 
 Fast, high‑quality summaries powered by Gemini 2.5 Flash
 
-Run Method:
-
-Install dependencies using pip install -r requirements.txt, add your GEMINI_API_KEY in a .env file, then run the app with streamlit run app.py to launch the summarizer in your browser.
-
 
 Purpose:
 

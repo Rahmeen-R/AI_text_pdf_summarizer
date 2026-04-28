@@ -1,4 +1,5 @@
-
+from dotenv import load_dotenv
+load_dotenv()
 
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -6,8 +7,7 @@ import PyPDF2
 
 # 🔹 Load AI Model
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
-        api_key="AIzaSyBDcgRqvx9CWmqmSbvXhZXZrt9L9MkJYhc"
+    model="gemini-2.5-flash"
 )
 
 # 🔹 Page Config
